@@ -1,0 +1,70 @@
+// FONT-FAMILY
+$uxi-font-families: (
+    "sans": ("Inter", sans-serif),
+    "serif": (Georgia, serif),
+    "mono": ("Fira Code", monospace)
+);
+
+// FONT-SIZE
+$uxi-font-sizes: (
+    "xs": 12px,
+    "sm": 14px,
+    "base": 16px,
+    "lg": 18px,
+    "xl": 20px,
+    "2xl": 24px,
+    "3xl": 30px,
+    "4xl": 36px,
+    "5xl": 48px,
+    "6xl": 60px,
+    "7xl": 72px,
+    "8xl": 96px,
+    "9xl": 128px,
+    "10xl": 144px
+);
+
+// FONT-WEIGHT
+$uxi-font-weights: (
+    "thin": 100,
+    "extra-light": 200,
+    "light": 300,
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "extra-bold": 800,
+    "black": 900
+);
+
+// FONT-STYLE
+$uxi-font-styles: (
+    "normal": normal,
+    "italic": italic,
+    "oblique": oblique
+);
+
+// TEXT-ALIGN
+$uxi-text-align: (
+    "left": left,
+    "center": center,
+    "right": right,
+    "start": start,
+    "end": end,
+    "justify": justify
+);
+
+// TEXT-DECORATION
+$uxi-text-decoration: (
+    "underline": underline,
+    "line-through": line-through,
+    "overline": overline,
+    "none": none
+);
+
+// TEXT-TRANSFORM
+$uxi-text-transform: (
+    "upper": uppercase,
+    "lower": lowercase,
+    "capitalize": capitalize,
+    "none": none
+);

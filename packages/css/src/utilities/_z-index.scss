@@ -1,0 +1,17 @@
+@use "../helpers" as *;
+
+// Z-INDEX
+@each $key, $value in $z-index {
+    .z-#{$key} {
+        z-index: $value;
+    }
+}
+
+// NEGATIVE Z-INDEX
+@each $key, $value in $z-index {
+    @if $key !="auto" and $value !=0 {
+        .\-z-#{$key} {
+            z-index: -$value;
+        }
+    }
+}

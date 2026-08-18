@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// CURSOR
+@each $key, $value in $cursor {
+    .cur-#{$key} {
+        cursor: $value;
+    }
+}

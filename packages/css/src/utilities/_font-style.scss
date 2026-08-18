@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// FONT-STYLE
+@each $key, $value in $font-styles {
+    .fsy-#{$key} {
+        font-style: $value;
+    }
+}

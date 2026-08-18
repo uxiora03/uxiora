@@ -1,0 +1,33 @@
+// FLEX-CENTER
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// FLEX-BETWEEN
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// CIRCLE
+@mixin circle($size) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+}
+
+// SQUARE
+@mixin square($size) {
+    width: $size;
+    height: $size;
+}
+
+// TEXT TRUNCATE
+@mixin truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

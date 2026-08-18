@@ -1,0 +1,88 @@
+// CURSOR
+$uxi-cursor: (
+    "auto": auto,
+    "default": default,
+    "none": none,
+    "pointer": pointer,
+    "wait": wait,
+    "text": text,
+    "vtext": vertical-text,
+    "move": move,
+    "help": help,
+    "progress": progress,
+    "crosshair": crosshair,
+    "cell": cell,
+    "menu": context-menu,
+    "alias": alias,
+    "copy": copy,
+    "nodrop": no-drop,
+    "na": not-allowed,
+    "grab": grab,
+    "grabbing": grabbing,
+    "allscroll": all-scroll,
+    "zoomin": zoom-in,
+    "zoomout": zoom-out,
+    "n-resize": n-resize,
+    "s-resize": s-resize,
+    "e-resize": e-resize,
+    "w-resize": w-resize,
+    "ne-resize": ne-resize,
+    "nw-resize": nw-resize,
+    "se-resize": se-resize,
+    "sw-resize": sw-resize,
+    "ew-resize": ew-resize,
+    "ns-resize": ns-resize,
+    "nesw-resize": nesw-resize,
+    "nwse-resize": nwse-resize,
+    "col-resize": col-resize,
+    "row-resize": row-resize
+);
+
+// OPACITY
+$uxi-opacity: (
+    0: 0,
+    5: .05,
+    10: .1,
+    20: .2,
+    25: .25,
+    30: .3,
+    40: .4,
+    50: .5,
+    60: .6,
+    70: .7,
+    75: .75,
+    80: .8,
+    90: .9,
+    95: .95,
+    100: 1
+);
+
+// SHADOW
+$uxi-shadow: (
+    "none": none,
+    "sm": 0 1px 2px rgba(0, 0, 0, .05),
+    "md": 0 4px 6px rgba(0, 0, 0, .1),
+    "lg": 0 10px 15px rgba(0, 0, 0, .15),
+    "xl": 0 20px 25px rgba(0, 0, 0, .2)
+);
+
+// TRANSITION
+$uxi-transition: (
+    "fast": .15s ease,
+    "normal": .3s ease,
+    "slow": .5s ease
+);
+
+// USER-SELECT
+$uxi-user-select: (
+    "none": none,
+    "text": text,
+    "all": all,
+    "auto": auto
+);
+
+// POINTER-EVENTS
+$uxi-pointer-events: (
+    "none": none,
+    "auto": auto
+);

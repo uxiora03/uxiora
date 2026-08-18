@@ -1,0 +1,243 @@
+// DISPLAY
+$uxi-display: (
+    "b": block,
+    "i": inline,
+    "ib": inline-block,
+
+    "f": flex,
+    "if": inline-flex,
+
+    "g": grid,
+    "ig": inline-grid,
+
+    "t": table,
+    "tr": table-row,
+    "tc": table-cell,
+
+    "li": list-item,
+
+    "con": contents,
+
+    "n": none,
+
+    // "inh": inherit,
+    // "ini": initial,
+    // "u": unset
+);
+
+// VISIBILITY
+$uxi-visibility: (
+    "v": visible,
+    "h": hidden,
+    "c": collapse
+);
+
+// OVERFLOW
+$uxi-overflow: (
+    "auto": auto,
+    "hidden": hidden,
+    "scroll": scroll,
+    "visible": visible
+);
+
+// OVERFLOW-X
+$uxi-overflow-x: (
+    "auto": auto,
+    "hidden": hidden,
+    "scroll": scroll
+);
+
+// OVERFLOW-Y
+$uxi-overflow-y: (
+    "auto": auto,
+    "hidden": hidden,
+    "scroll": scroll
+);
+
+// FLEX-DIRECTION
+$uxi-flex-direction: (
+    "row": row,
+    "row-rev": row-reverse,
+    "col": column,
+    "col-rev": column-reverse
+);
+
+// FLEX-WRAP
+$uxi-flex-wrap: (
+    "wrap": wrap,
+    "nowrap": nowrap,
+    "wrap-rev": wrap-reverse
+);
+
+// FLEX-GROW
+$uxi-flex-grow: (
+    0: 0,
+    1: 1
+);
+
+// FLEX-SHRINK
+$uxi-flex-shrink: (
+    0: 0,
+    1: 1
+);
+
+// JUSTIFY-CONTENT
+$uxi-justify-content: (
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly
+);
+
+// ALIGN-ITEMS
+$uxi-align-items: (
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "baseline": baseline,
+    "stretch": stretch
+);
+
+// ALIGN-SELF
+$uxi-align-self: (
+    "auto": auto,
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "baseline": baseline,
+    "stretch": stretch
+);
+
+// ALIGN-CONTENT
+$uxi-align-content: (
+    "start": flex-start,
+    "end": flex-end,
+    "center": center,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly,
+    "stretch": stretch
+);
+
+// JUSTIFY-SELF
+$uxi-justify-self: (
+    "auto": auto,
+    "start": start,
+    "end": end,
+    "center": center,
+    "stretch": stretch
+);
+
+// JUSTIFY-ITEMS
+$uxi-justify-items: (
+    "start": start,
+    "end": end,
+    "center": center,
+    "stretch": stretch
+);
+
+// PLACE-ITEMS
+$uxi-place-items: (
+    "start": start,
+    "end": end,
+    "center": center,
+    "stretch": stretch
+);
+
+// PLACE-CONTENT
+$uxi-place-content: (
+    "start": start,
+    "end": end,
+    "center": center,
+    "between": space-between,
+    "around": space-around,
+    "evenly": space-evenly,
+    "stretch": stretch
+);
+
+// PLACE-SELF
+$uxi-place-self: (
+    "auto": auto,
+    "start": start,
+    "end": end,
+    "center": center,
+    "stretch": stretch
+);
+
+// POSITION
+$uxi-position: (
+    "static": static,
+    "relative": relative,
+    "absolute": absolute,
+    "fixed": fixed,
+    "sticky": sticky
+);
+// BORDER-WIDTH
+$uxi-border-width: (
+    0: 0,
+    1: 1px,
+    2: 2px,
+    3: 3px,
+    4: 4px,
+    5: 5px
+);
+
+// BORDER-STYLE
+$uxi-border-style: (
+    "solid": solid,
+    "dashed": dashed,
+    "dotted": dotted,
+    "double": double,
+    "hidden": hidden,
+    "none": none
+);
+
+// OUTLINE-WIDTH
+$uxi-outline-width: (
+    0: 0,
+    1: 1px,
+    2: 2px,
+    3: 3px,
+    4: 4px
+);
+
+// Z-INDEX
+$uxi-z-index: (
+    "auto": auto,
+    0: 0,
+    10: 10,
+    20: 20,
+    30: 30,
+    40: 40,
+    50: 50,
+    100: 100,
+    999: 999,
+    9999: 9999
+);
+
+// RADIUS
+$uxi-radius: (
+    "none": 0,
+    "sm": 4px,
+    "md": 8px,
+    "lg": 12px,
+    "xl": 16px,
+    "full": 9999px
+);
+
+/* ==========================================
+  LATER WORK
+   ========================================== */
+/* // SHADOW 
+
+
+ // BREAKPOINT 
+$uxi-breakpoints: (
+    "sm": 576px,
+    "md": 768px,
+    "lg": 992px,
+    "xl": 1200px,
+    "2xl": 1400px
+);*/

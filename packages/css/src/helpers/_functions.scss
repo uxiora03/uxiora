@@ -1,0 +1,42 @@
+@use "sass:map";
+@use "./maps" as *;
+
+// GET COLORS
+@function color($name) {
+    @return map.get($colors, $name);
+}
+
+// FONT-SIZE
+@function font-size($size) {
+    @return map.get($font-sizes, $size);
+}
+
+// FONT-WEIGHT
+@function font-weight($weight) {
+    @return map.get($font-weights, $weight);
+}
+
+// SPACING
+@function spacing($size) {
+    @return map.get($spacing, $size);
+}
+
+// RADIUS
+@function radius($size) {
+    @return map.get($radius, $size);
+}
+
+
+/* ==========================================
+  LATER WORK
+   ========================================== */
+
+/* // Get Shadow 
+   @function shadow($size) {
+       @return map.get($shadows, $size);
+   }
+
+   // Get Breakpoint 
+   @function breakpoint($size) {
+       @return map.get($breakpoints, $size);
+   }*/

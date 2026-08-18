@@ -1,0 +1,15 @@
+@use "../helpers" as *;
+
+// BOTTOM
+@each $key, $value in $spacing {
+    .bottom-#{$key} {
+        bottom: $value;
+    }
+}
+
+// NEGATIVE-BOTTOM
+@each $key, $value in $spacing {
+    .\-bottom-#{$key} {
+        bottom: -$value;
+    }
+}

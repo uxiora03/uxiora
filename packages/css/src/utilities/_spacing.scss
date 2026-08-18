@@ -1,0 +1,149 @@
+    @use "../helpers" as *;
+
+    // MARGIN
+    @each $key, $value in $spacing {
+        .mg-#{$key} {
+            margin: $value;
+        }
+    }
+
+    // MARGIN-TOP
+    @each $key, $value in $spacing {
+        .mg-t-#{$key} {
+            margin-top: $value;
+        }
+    }
+
+    // MARGIN-RIGHT
+    @each $key, $value in $spacing {
+        .mg-r-#{$key} {
+            margin-right: $value;
+        }
+    }
+
+    // MARGIN-BOTTOM
+    @each $key, $value in $spacing {
+        .mg-b-#{$key} {
+            margin-bottom: $value;
+        }
+    }
+
+    // MARGIN-LEFT
+    @each $key, $value in $spacing {
+        .mg-l-#{$key} {
+            margin-left: $value;
+        }
+    }
+
+    // MARGIN-X
+    @each $key, $value in $spacing {
+        .mg-x-#{$key} {
+            margin-inline: $value;
+        }
+    }
+
+    // MARGIN-Y
+    @each $key, $value in $spacing {
+        .mg-y-#{$key} {
+            margin-block: $value;
+        }
+    }
+
+    // NEGATIVE-MARGIN
+    @each $key, $value in $spacing {
+        .\-mg-#{$key} {
+            margin: -$value;
+        }
+    }
+
+    // NEGATIVE-MARGIN-TOP
+    @each $key, $value in $spacing {
+        .\-mg-t-#{$key} {
+            margin-top: -$value;
+        }
+    }
+
+    // NEGATIVE-MARGIN-RIGHT
+    @each $key, $value in $spacing {
+        .\-mg-r-#{$key} {
+            margin-right: -$value;
+        }
+    }
+
+    // NEGATIVE-MARGIN-BOTTOM
+    @each $key, $value in $spacing {
+        .\-mg-b-#{$key} {
+            margin-bottom: -$value;
+        }
+    }
+
+    // NEGATIVE-MARGIN-LEFT
+    @each $key, $value in $spacing {
+        .\-mg-l-#{$key} {
+            margin-left: -$value;
+        }
+    }
+
+    // NEGATIVE-MARGIN-X
+    @each $key, $value in $spacing {
+        .\-mg-x-#{$key} {
+            margin-inline: -$value;
+        }
+    }
+
+    // NEGATIVE-MARGIN-Y
+    @each $key, $value in $spacing {
+        .\-mg-y-#{$key} {
+            margin-block: -$value;
+        }
+    }
+
+    // PADDING
+
+    @each $key, $value in $spacing {
+        .pd-#{$key} {
+            padding: $value;
+        }
+    }
+
+    // PADDING-TOP
+    @each $key, $value in $spacing {
+        .pd-t-#{$key} {
+            padding-top: $value;
+        }
+    }
+
+    // PADDING-RIGHT
+    @each $key, $value in $spacing {
+        .pd-r-#{$key} {
+            padding-right: $value;
+        }
+    }
+
+    // PADDING-BOTTOM
+    @each $key, $value in $spacing {
+        .pd-b-#{$key} {
+            padding-bottom: $value;
+        }
+    }
+
+    // PADDING-LEFT
+    @each $key, $value in $spacing {
+        .pd-l-#{$key} {
+            padding-left: $value;
+        }
+    }
+
+    // PADDING-X
+    @each $key, $value in $spacing {
+        .pd-x-#{$key} {
+            padding-inline: $value;
+        }
+    }
+
+    // PADDING-Y
+    @each $key, $value in $spacing {
+        .pd-y-#{$key} {
+            padding-block: $value;
+        }
+    }

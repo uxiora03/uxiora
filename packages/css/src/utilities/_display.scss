@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// DISPLAY
+@each $key, $value in $display {
+    .dis-#{$key} {
+        display: $value;
+    }
+}

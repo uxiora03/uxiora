@@ -1,0 +1,15 @@
+@use "../helpers" as *;
+
+// TOP
+@each $key, $value in $spacing {
+    .top-#{$key} {
+        top: $value;
+    }
+}
+
+// NEGATIVE-TOP
+@each $key, $value in $spacing {
+    .\-top-#{$key} {
+        top: -$value;
+    }
+}

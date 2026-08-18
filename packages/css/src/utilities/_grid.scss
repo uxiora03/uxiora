@@ -1,0 +1,37 @@
+@use "../helpers" as *;
+
+// JUSTIFY-SELF
+@each $key, $value in $justify-self {
+    .js-#{$key} {
+        justify-self: $value;
+    }
+}
+
+// JUSTIFY-ITEMS
+@each $key, $value in $justify-items {
+    .ji-#{$key} {
+        justify-items: $value;
+    }
+}
+
+// PLACE-ITEMS
+@each $key, $value in $place-items {
+    .pi-#{$key} {
+        place-items: $value;
+    }
+}
+
+// PLACE-CONTENT
+@each $key, $value in $place-content {
+    .pc-#{$key} {
+        place-content: $value;
+    }
+}
+
+// PLACE-SELF
+@each $key, $value in $place-self {
+    .ps-#{$key} {
+        place-self: $value;
+    }
+}
+

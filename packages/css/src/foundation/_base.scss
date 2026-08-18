@@ -1,0 +1,27 @@
+body {
+    font-family: var(--uxi-font-family-mono), var(--uxi-font-family-sans);
+    font-size: var(--uxi-font-size-md);
+    font-weight: var(--uxi-font-weight-normal);
+    color: var(--uxi-dark);
+    background: var(--uxi-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+small {
+    font-size: 0.875rem;
+}
+
+code,
+pre {
+    font-family: var(--uxi-font-family-mono);
+}

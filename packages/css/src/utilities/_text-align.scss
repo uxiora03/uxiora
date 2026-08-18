@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// TEXT-ALIGN
+@each $key, $value in $text-align {
+    .ta-#{$key} {
+        text-align: $value;
+    }
+}

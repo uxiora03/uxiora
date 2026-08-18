@@ -1,0 +1,22 @@
+@use "../helpers" as *;
+
+// OVERFLOW
+@each $key, $value in $overflow {
+    .ov-#{$key} {
+        overflow: $value;
+    }
+}
+
+// OVERFLOW-X
+@each $key, $value in $overflow-x {
+    .ov-x-#{$key} {
+        overflow-x: $value;
+    }
+}
+
+// OVERFLOW-Y
+@each $key, $value in $overflow-y {
+    .ov-y-#{$key} {
+        overflow-y: $value;
+    }
+}

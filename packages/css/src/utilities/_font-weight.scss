@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// FONT-WEIGHT
+@each $key, $value in $font-weights {
+    .fwg-#{$key} {
+        font-weight: $value;
+    }
+}

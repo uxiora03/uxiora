@@ -1,0 +1,35 @@
+@use "../helpers" as *;
+
+:root {
+
+    // COLORS
+    @each $name, $value in $colors {
+        --uxi-#{$name}: #{$value};
+    }
+
+    // FONT-FAMILY
+    @each $name, $value in $font-families {
+        --uxi-font-family-#{$name}: #{$value};
+    }
+
+    // FONT-SIZE
+    @each $name, $value in $font-sizes {
+        --uxi-font-size-#{$name}: #{$value};
+    }
+
+    // FONT-WEIGHT
+    @each $name, $value in $font-weights {
+        --uxi-font-weight-#{$name}: #{$value};
+    }
+
+    // SPACING
+    @each $name, $value in $spacing {
+        --uxi-spacing-#{$name}: #{$value};
+    }
+
+    // RADIUS
+    @each $name, $value in $radius {
+        --uxi-radius-#{$name}: #{$value};
+    }
+
+}

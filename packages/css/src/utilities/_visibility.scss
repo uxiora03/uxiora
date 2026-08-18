@@ -1,0 +1,9 @@
+@use "../helpers" as *;
+
+// VISIBILITY
+
+@each $key, $value in $visibility {
+    .vis-#{$key} {
+        visibility: $value;
+    }
+}

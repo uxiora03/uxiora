@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// FONT-SIZE
+@each $key, $value in $font-sizes {
+    .fs-#{$key} {
+        font-size: $value;
+    }
+}

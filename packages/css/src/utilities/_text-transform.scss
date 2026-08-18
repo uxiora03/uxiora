@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// TEXT-TRANSFORM
+@each $key, $value in $text-transform {
+    .tt-#{$key} {
+        text-transform: $value;
+    }
+}

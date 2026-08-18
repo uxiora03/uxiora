@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// POSITION
+@each $key, $value in $position {
+    .pos-#{$key} {
+        position: $value;
+    }
+}

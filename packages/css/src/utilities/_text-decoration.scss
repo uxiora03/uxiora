@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// TEXT-DECORATION
+@each $key, $value in $text-decoration {
+    .td-#{$key} {
+        text-decoration: $value;
+    }
+}

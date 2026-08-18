@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// BORDER-STYLE
+@each $key, $value in $border-style {
+    .b-#{$key} {
+        border-style: $value;
+    }
+}

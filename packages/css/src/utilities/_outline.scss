@@ -1,0 +1,8 @@
+@use "../helpers" as *;
+
+// OUTLINE
+@each $key, $value in $outline-width {
+    .out-#{$key} {
+        outline-width: $value;
+    }
+}

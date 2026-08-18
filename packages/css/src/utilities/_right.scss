@@ -1,0 +1,15 @@
+@use "../helpers" as *;
+
+// RIGHT
+@each $key, $value in $spacing {
+    .right-#{$key} {
+        right: $value;
+    }
+}
+
+// NEGATIVE-RIGHT
+@each $key, $value in $spacing {
+    .\-right-#{$key} {
+        right: -$value;
+    }
+}

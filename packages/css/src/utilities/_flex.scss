@@ -1,0 +1,57 @@
+@use "../helpers" as *;
+
+// FLEX-DIRECTION
+@each $key, $value in $flex-direction {
+    .f-#{$key} {
+        flex-direction: $value;
+    }
+}
+
+// FLEX-WRAP
+@each $key, $value in $flex-wrap {
+    .f-#{$key} {
+        flex-wrap: $value;
+    }
+}
+
+// FLEX-GROW
+@each $key, $value in $flex-grow {
+    .f-grow-#{$key} {
+        flex-grow: $value;
+    }
+}
+
+// FLEX-SHRINK
+@each $key, $value in $flex-shrink {
+    .f-shrink-#{$key} {
+        flex-shrink: $value;
+    }
+}
+
+// JUSTIFY-CONTENT
+@each $key, $value in $justify-content {
+    .jc-#{$key} {
+        justify-content: $value;
+    }
+}
+
+// ALIGN-ITEMS
+@each $key, $value in $align-items {
+    .ai-#{$key} {
+        align-items: $value;
+    }
+}
+
+// ALIGN-SELF
+@each $key, $value in $align-self {
+    .as-#{$key} {
+        align-self: $value;
+    }
+}
+
+// ALIGN-CONTENT
+@each $key, $value in $align-content {
+    .ac-#{$key} {
+        align-content: $value;
+    }
+}

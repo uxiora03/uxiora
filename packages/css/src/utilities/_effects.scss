@@ -1,0 +1,44 @@
+@use "../helpers" as *;
+
+// OPACITY
+@each $key, $value in $opacity {
+    .op-#{$key} {
+        opacity: $value;
+    }
+}
+
+// SHADOW
+@each $key, $value in $shadow {
+    .shadow-#{$key} {
+        box-shadow: $value;
+    }
+}
+
+// TRANSITION
+.trans {
+    transition: all .3s ease;
+}
+
+.trans-none {
+    transition: none;
+}
+
+@each $key, $value in $transition {
+    .trans-#{$key} {
+        transition: all $value;
+    }
+}
+
+// USER-SELECT
+@each $key, $value in $user-select {
+    .select-#{$key} {
+        user-select: $value;
+    }
+}
+
+// POINTER-EVENTS
+@each $key, $value in $pointer-events {
+    .pe-#{$key} {
+        pointer-events: $value;
+    }
+}

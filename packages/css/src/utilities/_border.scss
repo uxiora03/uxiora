@@ -1,0 +1,50 @@
+@use "../helpers" as *;
+
+// BORDER
+@each $key, $value in $border-width {
+    .bor-#{$key} {
+        border-width: $value;
+    }
+}
+
+// BORDER-TOP
+@each $key, $value in $border-width {
+    .bor-t-#{$key} {
+        border-top-width: $value;
+    }
+}
+
+// BORDER-RIGHT
+@each $key, $value in $border-width {
+    .bor-r-#{$key} {
+        border-right-width: $value;
+    }
+}
+
+// BORDER-BOTTOM
+@each $key, $value in $border-width {
+    .bor-b-#{$key} {
+        border-bottom-width: $value;
+    }
+}
+
+// BORDER-LEFT
+@each $key, $value in $border-width {
+    .bor-l-#{$key} {
+        border-left-width: $value;
+    }
+}
+
+// BORDER-X
+@each $key, $value in $border-width {
+    .bor-x-#{$key} {
+        border-inline-width: $value;
+    }
+}
+
+// BORDER-Y
+@each $key, $value in $border-width {
+    .bor-y-#{$key} {
+        border-block-width: $value;
+    }
+}
